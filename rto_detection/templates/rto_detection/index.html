@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>RTO-Detection</title>
+		<link rel="stylesheet" type="text/css" href="{% static 'rto_detection/bootstrap.min.css' %}">
+	</head>
+	<body>
+		<!-- Bootstrap 4 Navbar  -->
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">RTO-Detection</a>
+			</div>
+			<div>
+				<ul class="nav navbar-nav float-right">
+					<li>
+						<a class="nav-link" href="https://pjreddie.com">YOLO</a>
+					</li> 
+					<li>
+						<a class="nav-link" href="https://docs.djangoproject.com">Django</a>
+					</li>
+					<li>
+						<a class="nav-link" href="https://arxiv.org/abs/1602.00763">Sort</a>
+					</li> 
+				</ul>
+			</div>
+		</nav>
+		<!-- End of Navbar -->
+		<hr>
+		<div class="col-md-6 offset-2">
+			<div class="thumbnail">
+				<img src="{% url 'rto_detection:stream' %}" width="700" height="400"> 
+			</div>
+			<div class="caption">
+			<h4 class="text text-primary">Real Time Object Detection in YOLO(Darknet)</h4>
+			<p>Real time vehicle detection and counting using yolo and Kalman filter</p> 
+			</div>
+		</div>
+		<hr>
+	</body>
+</html>
