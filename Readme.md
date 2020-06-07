@@ -8,7 +8,7 @@ Dr. Adrian Rosebrock of the pyimagesearch organization who implemented yolo (dar
 (https://www.pyimagesearch.com). and Mr.Bamwani who implemented in python(https://github.com/bamwani/car-counting-and-speed-estimation-yolo-sort-python). I'm interested to implement it on Django web framework.
  
 
-## Hardware on Ubuntu or other Linux flavor 
+## OS: Ubuntu or other Linux flavor 
 
 
 ## Running the app
@@ -32,7 +32,7 @@ Dr. Adrian Rosebrock of the pyimagesearch organization who implemented yolo (dar
 
 5. download or clone the project in your current directory
 
-6. enter into the project directory where you downloaded
+6. enter into the project directory that you downloaded
 	 
 7. download the trained data yolov3.weights(248MB) from https://www.pjreddie.com and put in yolo directory.
 8. run the django development server 
@@ -40,7 +40,7 @@ Dr. Adrian Rosebrock of the pyimagesearch organization who implemented yolo (dar
 	python manage.py runserver
 	```
 
-9. type http://127.0.0.1:8000/rto_detection/ 
+9. type http://127.0.0.1:8000/rto_detection/ in your browser 
 
 ## Learn More
 
