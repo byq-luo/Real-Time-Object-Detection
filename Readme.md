@@ -16,7 +16,7 @@ Dr. Adrian Rosebrock of the pyimagesearch organization who implemented yolo (dar
 	```
 	mkdir myProject
 	```	
-2. enter a myProject directory and create virtual environment of any related name let say object_detection
+2. enter a myProject directory and create a virtual environment of any related name let say object_detection
 	```
     cd myProject 
 	virtualenv object_detection
@@ -41,6 +41,12 @@ Dr. Adrian Rosebrock of the pyimagesearch organization who implemented yolo (dar
 	```
 
 9. type http://127.0.0.1:8000/rto_detection/ in your browser 
+
+
+## output
+```
+<img src="127.0.0.1_8000_rto_detection_.png" width="400" height="500">
+```
 
 ## Learn More
 
