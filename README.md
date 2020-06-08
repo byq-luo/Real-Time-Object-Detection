@@ -44,9 +44,9 @@ Dr. Adrian Rosebrock of the pyimagesearch organization who implemented yolo (dar
 
 
 ## output
-```
-<img src="127.0.0.1_8000_rto_detection_.png" width="400" height="500">
-```
+you will see the following index page
+ 
+ ![Alt text](https://github.com/ephrem601/Real-Time-Object-Detection/blob/master/stream.png)
 
 ## Learn More
 
